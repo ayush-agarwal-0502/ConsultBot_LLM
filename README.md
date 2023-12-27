@@ -3,11 +3,11 @@ RAG based LLM using Dify for practicing consulting case studies
 
 ![consultbot_trial_1](https://github.com/ayush-agarwal-0502/ConsultBot_LLM/assets/86561124/a26a0713-89e8-4caa-b000-6828f0567740)
 
-Here is the link to my application : https://udify.app/chat/I91qkxLZaxCOGHKY 
+Here is the link to my application hosted on DiFy cloud : https://udify.app/chat/I91qkxLZaxCOGHKY 
 
 (Please don't overuse it I don't have OpenAI credits so one person's greed will make it stop working for everyone)(Thank You) 
 
-## My Idea :
+## My Idea and Vision :
 
 I was studying for placements and I realized that there is so much support availaible for SDE, yet so less of practice material curated specially for Business and related Domains (Consulting, Analytics, Product Management). I validated this observed population pain point by talking to my friends . As I was studying about RAG in LLM and its applications it struck to me that I could solve my friends problems : All I had to do was download casebooks (which are free and open source) from the IIMs, and deploy a RAG based LLM application to allow the users to practice case studies by talking to the chatbot. As the vision became clearer to me, I started working upon my idea :)  
 
