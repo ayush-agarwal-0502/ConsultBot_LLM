@@ -1,5 +1,19 @@
 # ConsultBot_LLM
-RAG based LLM using Dify for practicing consulting case studies
+RAG based LLM for practicing case studies
+
+## About :
+
+ Final entry for LLM apps bootcamp held by CAC (Consulting Analytics Club) IITG (IIT Guwahati) and Pathway 
+
+* __My Details__ - Ayush Agarwal, 4th year ECE IIT BHU, Infoedge DS
+* __My linkedin__ - https://www.linkedin.com/in/ayush-agarwal-261041215/ (Would be happy to connect if we can convert this into a business)
+* __Concepts__ - RAG ( Retrival Augmented Generation) in LLMs (Large Language Models)
+* __My idea__ - explained very well below
+* __Tech Stack__ - Docker, Python, OpenAI
+
+Bootcamp details can be accessed here - https://cac-iit-g-and-pathway.gitbook.io/3-week-bootcamp-building-realtime-llm-application/
+
+## Demo : 
 
 ![consultbot_trial_1](https://github.com/ayush-agarwal-0502/ConsultBot_LLM/assets/86561124/a26a0713-89e8-4caa-b000-6828f0567740)
 
