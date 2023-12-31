@@ -87,6 +87,10 @@ Then RAG came, and all the libraries came which I have described here.
 
 But the Last layer of Abstraction is Dify . More details availaible on their website - https://dify.ai/ and https://cloud.dify.ai/apps. It allows to setup a RAG based pipeline very conveniently, giving the freedom to set the required hyperparameters , make a knowledge base, choose the models we need, choose vector db, editing the frontend etc. It was created sometime in 2023, and the company is much much more than a chatgpt wrapper , and I feel it will be the next popular layer of abstraction. 
 
+## Appreciation note to pathway - 
+
+It was fun working with your app :) Pathway is a RAG based LLM making tool which runs with Rust in backend which makes it much faster than its competitors, and I appreciate their "llm_app" library much more after using it . 
+
 
 
 
