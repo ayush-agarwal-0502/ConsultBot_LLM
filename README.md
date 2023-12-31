@@ -13,17 +13,29 @@ RAG based LLM for practicing case studies
 
 Bootcamp details can be accessed here - https://cac-iit-g-and-pathway.gitbook.io/3-week-bootcamp-building-realtime-llm-application/
 
+__Have written some notes below for bootcamp team who are checking this repo__
+
 ## Demo : 
 
+Pathway "llm_app" library based chatbot demo :
+
+
+
+DiFy based chatbot demo :
 ![consultbot_trial_1](https://github.com/ayush-agarwal-0502/ConsultBot_LLM/assets/86561124/a26a0713-89e8-4caa-b000-6828f0567740)
 
 Here is the link to my application hosted on DiFy cloud : https://udify.app/chat/I91qkxLZaxCOGHKY 
 
 (Please don't overuse it I don't have OpenAI credits so one person's greed will make it stop working for everyone)(Thank You) 
+(Infact I have given enough information in this repo for you to be able to implement it yourself in few hours)
 
-## My Idea and Vision :
+# My Idea and Vision :
 
 I was studying for placements and I realized that there is so much support availaible for SDE, yet so less of practice material curated specially for Business and related Domains (Consulting, Analytics, Product Management). I validated this observed population pain point by talking to my friends . As I was studying about RAG in LLM and its applications it struck to me that I could solve my friends problems : All I had to do was download casebooks (which are free and open source) from the IIMs, and deploy a RAG based LLM application to allow the users to practice case studies by talking to the chatbot. As the vision became clearer to me, I started working upon my idea :)  
+
+## Notes to the bootcamp checking team (and anyone else implementing the code on their own) :
+
+In the .env file, put the openai_api (which you can get from - https://platform.openai.com/api-keys), and make a folder, put all IIM casebooks whose flavour you would like in your practice, and then put the path to that folder in the DROPBOX_LOCAL_FOLDER_PATH field . Then run the docker container (using docker-compose build and docker-compose up commands respectively) . When you want to shut down use ctrl + C and then docker-compose down command. While interacting with the app, try not to press enter button (sometimes code breaks) and remember that it will look like the demo , i.e. text will be below and your input will be above (Couldnt make it as clean as chatgpt, after all I'm more of ML person than a dev person, also I did this project in less than a week). My idea is original and I am really looking forward to the leaderboard :) 
 
 ## If I had a minute to explain you RAG LLM concepts :
 
