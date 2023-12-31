@@ -18,8 +18,7 @@ __Have written some notes below for bootcamp team who are checking this repo__
 ## Demo : 
 
 Pathway "llm_app" library based chatbot demo :
-
-
+![final_app_demo_fast](https://github.com/ayush-agarwal-0502/ConsultBot_LLM/assets/86561124/fc951b03-66ab-4f53-92d3-8fb4bc75832f)
 
 DiFy based chatbot demo :
 ![consultbot_trial_1](https://github.com/ayush-agarwal-0502/ConsultBot_LLM/assets/86561124/a26a0713-89e8-4caa-b000-6828f0567740)
@@ -35,7 +34,7 @@ I was studying for placements and I realized that there is so much support avail
 
 ## Notes to the bootcamp checking team (and anyone else implementing the code on their own) :
 
-In the .env file, put the openai_api (which you can get from - https://platform.openai.com/api-keys), and make a folder, put all IIM casebooks whose flavour you would like in your practice, and then put the path to that folder in the DROPBOX_LOCAL_FOLDER_PATH field . Then run the docker container (using docker-compose build and docker-compose up commands respectively) . When you want to shut down use ctrl + C and then docker-compose down command. While interacting with the app, try not to press enter button (sometimes code breaks) and remember that it will look like the demo , i.e. text will be below and your input will be above (Couldnt make it as clean as chatgpt, after all I'm more of ML person than a dev person, also I did this project in less than a week). My idea is original and I am really looking forward to the leaderboard :) 
+In the .env file, put the openai_api (which you can get from - https://platform.openai.com/api-keys), and make a folder, put all IIM casebooks whose flavour you would like in your practice, and then put the path to that folder in the DROPBOX_LOCAL_FOLDER_PATH field . Then run the docker container (using docker-compose build and docker-compose up commands respectively) . When you want to shut down use ctrl + C and then docker-compose down command. While interacting with the app, try not to press enter button (sometimes code breaks) and remember that it will look like the demo , i.e. text will be below and your input will be above (Couldnt make it as clean as chatgpt, after all I'm more of ML person than a dev person, also I did this project in less than a week). My idea is original and I am really looking forward to the leaderboard :) Do read my vision with the app also , would take only 10 20 seconds to read :) 
 
 ## If I had a minute to explain you RAG LLM concepts :
 
