@@ -36,6 +36,12 @@ I was studying for placements and I realized that there is so much support avail
 
 In the .env file, put the openai_api (which you can get from - https://platform.openai.com/api-keys), and make a folder, put all IIM casebooks whose flavour you would like in your practice, and then put the path to that folder in the DROPBOX_LOCAL_FOLDER_PATH field . Then run the docker container (using docker-compose build and docker-compose up commands respectively) . When you want to shut down use ctrl + C and then docker-compose down command. While interacting with the app, try not to press enter button (sometimes code breaks) and remember that it will look like the demo , i.e. text will be below and your input will be above (Couldnt make it as clean as chatgpt, after all I'm more of ML person than a dev person, also I did this project in less than a week). My idea is original and I am really looking forward to the leaderboard :) Do read my vision with the app also , would take only 10 20 seconds to read :) 
 
+Also I was facing some issues in using github and this web version of github dosent allow to upload folders so I put them in a zip file and uploaded it , please unzip them if they are needed , I dont think zarurat padegi vaise . 
+
+There are 2 versions - pathway one and dify one
+
+Thanks
+
 ## If I had a minute to explain you RAG LLM concepts :
 
 You ask something to chatgpt (prompt it) and it returns the answer. 
