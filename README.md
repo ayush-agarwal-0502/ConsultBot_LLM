@@ -6,7 +6,7 @@ RAG based LLM for practicing case studies
  Final entry for LLM apps bootcamp held by CAC (Consulting Analytics Club) IITG (IIT Guwahati) and Pathway 
 
 * __My Details__ - Ayush Agarwal, 4th year ECE IIT BHU, Infoedge DS
-* __My linkedin__ - https://www.linkedin.com/in/ayush-agarwal-261041215/ (Would be happy to connect if we can convert this into a business)
+* __My linkedin__ - https://www.linkedin.com/in/ayush-agarwal-261041215/ (Would be happy to connect, even better if we can convert this into a business)
 * __Concepts__ - RAG ( Retrival Augmented Generation) in LLMs (Large Language Models)
 * __My idea__ - explained very well below
 * __Tech Stack__ - Docker, Python, OpenAI, Pathway
