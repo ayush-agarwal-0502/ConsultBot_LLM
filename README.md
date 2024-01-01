@@ -9,7 +9,7 @@ RAG based LLM for practicing case studies
 * __My linkedin__ - https://www.linkedin.com/in/ayush-agarwal-261041215/ (Would be happy to connect if we can convert this into a business)
 * __Concepts__ - RAG ( Retrival Augmented Generation) in LLMs (Large Language Models)
 * __My idea__ - explained very well below
-* __Tech Stack__ - Docker, Python, OpenAI
+* __Tech Stack__ - Docker, Python, OpenAI, Pathway
 
 Bootcamp details can be accessed here - https://cac-iit-g-and-pathway.gitbook.io/3-week-bootcamp-building-realtime-llm-application/
 
@@ -32,15 +32,34 @@ Here is the link to my application hosted on DiFy cloud : https://udify.app/chat
 
 I was studying for placements and I realized that there is so much support availaible for SDE, yet so less of practice material curated specially for Business and related Domains (Consulting, Analytics, Product Management). I validated this observed population pain point by talking to my friends . As I was studying about RAG in LLM and its applications it struck to me that I could solve my friends problems : All I had to do was download casebooks (which are free and open source) from the IIMs, and deploy a RAG based LLM application to allow the users to practice case studies by talking to the chatbot. As the vision became clearer to me, I started working upon my idea :)  
 
-## Notes to the bootcamp checking team (and anyone else implementing the code on their own) :
+For those who don't know what case is, let me explain - 
 
-In the .env file, put the openai_api (which you can get from - https://platform.openai.com/api-keys), and make a folder, put all IIM casebooks whose flavour you would like in your practice, and then put the path to that folder in the DROPBOX_LOCAL_FOLDER_PATH field . Then run the docker container (using docker-compose build and docker-compose up commands respectively) . When you want to shut down use ctrl + C and then docker-compose down command. While interacting with the app, try not to press enter button (sometimes code breaks) and remember that it will look like the demo , i.e. text will be below and your input will be above (Couldnt make it as clean as chatgpt, after all I'm more of ML person than a dev person, also I did this project in less than a week). My idea is original and I am really looking forward to the leaderboard :) Do read my vision with the app also , would take only 10 20 seconds to read :) 
+A case is a small problem statement which usually resembles a real life business problem, that are often asked in the fields of business and management (eg - Consulting, Analytics, Product Management) in interviews in India. IIMs are Indian Institute of Management, which are the elite MBA institutions of India, and they often release casebooks containing different types of cases (eg - guesstimates, Root Cause Analysis RCA, Profitability, Market Entry, Go to Market GTM, Product Design etc) which all the students use across the country. Interview preparation and Ed-Tech are very big and popular markets in India. 
 
-Also I was facing some issues in using github and this web version of github dosent allow to upload folders so I put them in a zip file and uploaded it , please unzip them if they are needed , I dont think zarurat padegi vaise . 
+## Notes to the bootcamp checking team on how to run (and anyone else implementing the code on their own) :
+
+* In the .env file, put the openai_api (which you can get from - https://platform.openai.com/api-keys),
+* and make a folder, put all IIM casebooks whose flavour you would like in your practice,
+* and then put the path to that folder in the DROPBOX_LOCAL_FOLDER_PATH field .
+* Then run the docker container (using docker-compose build and docker-compose up commands respectively) .
+* When you want to shut down use ctrl + C and then docker-compose down command.
+* While interacting with the app, try not to press enter button (sometimes code breaks) and remember that it will look like the demo , i.e. text will be below and your input will be above (Couldnt make it as clean as chatgpt, after all I'm more of ML person than a dev person, also I did this project in less than a week).
+* * Also I was facing some issues in using github and this web version of github dosent allow to upload folders so I put them in a zip file and uploaded it , please unzip them if they are needed , I dont think it would be neccessary tho . 
+* My idea is original and I am really looking forward to the leaderboard :)
+* Do read my vision with the app also , would take only 10 20 seconds to read :) 
+
 
 There are 2 versions - pathway one and dify one
 
 Thanks
+
+## Dataset - 
+
+IIMA Case Book - https://www.linkedin.com/posts/consult-club-iim-ahmedabad_iima-casebook-2022-23-activity-6972579962100834304-kfq-?utm_source=share&utm_medium=member_desktop
+
+IIMB Case Book - https://www.linkedin.com/posts/icon-iimbconsultingclub_icon-casebook-2022-23volume-12-a-activity-6974450270873280512-y8wl?utm_source=share&utm_medium=member_desktop
+
+IIMC Case Book - https://www.linkedin.com/posts/consult-club-iim-calcutta_iim-calcutta-casebook-2023-24-activity-7106291181445115904-HYOP?utm_source=share&utm_medium=member_desktop
 
 ## If I had a minute to explain you RAG LLM concepts :
 
