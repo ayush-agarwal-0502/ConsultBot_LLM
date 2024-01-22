@@ -27,6 +27,7 @@ Here is the link to my application hosted on DiFy cloud : https://udify.app/chat
 
 (Please don't overuse it I don't have OpenAI credits so one person's greed will make it stop working for everyone)(Thank You) 
 (Infact I have given enough information in this repo for you to be able to implement it yourself in few hours)
+(update - switched the dify app off since Ive shared this repo in linkedin now)
 
 # My Idea and Vision :
 
